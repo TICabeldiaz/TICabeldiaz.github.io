@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    
+        <style>
+
+            .clase{color:red;
+            background-color: blue;}
+
+
+
+         #identificador{color:green;
+         background-color: hotpink;}   
+
+
+         .clase2 { color:red;
+   font-size: 20px;
+   line-height: 25px;}
+ul li{color:blue;
+background-color: gold;}
+
+
+   p:hover {background-color: yellow;}
+        </style>
+    </head>
+    <body>
+<p><h1>Tipos de selectores que entran en examen</h1></p>
+
+<ol>
+
+<p><li><h2>   Clase (class=””)    </h2></li></p>
+
+<p>El selector "clase" selecciona elementos con un atributo de clase específico.
+
+    Para seleccionar elementos con una clase específica, se escribe un carácter de punto (.) seguido del nombre de la clase.
+    
+    También puede especificar que solo los elementos HTML específicos se vean afectados por una clase. 
+    Para hacer esto, se comienza con el nombre del elemento,y luego se escribe el carácter de punto (.), seguido del nombre de la clase</p>
+
+<p>Ej.: El otro día vi un partido de fútbol del <strong class="clase">Barcelona</strong>.</p>
+
+<p><li><h2>   Identificador (id=””)    </h2></li></p>
+
+<p>El id atributo especifica una identificación única para un elemento HTML (el valor debe ser único dentro del documento HTML).
+
+    CSS y JavaScript pueden usar el valor de identificación para realizar ciertas tareas para el elemento con el valor de identificación específico.
+    
+    En CSS, para seleccionar un elemento con una identificación específica, se debe escribir un carácter hash (#), seguido de la identificación del elemento:</p>
+
+<p> <div id="identificador">Ej.: Este es el ejemplo de identificador.</div></p>
+
+<p><li><h2>   Todos los elementos (*)    </h2></li></p>
+
+<p>El selector universal funciona como un carácter comodín, seleccionando todos los elementos en una página.
+    Cada página HTML se basa en contenido colocado dentro de etiquetas HTML. 
+    Cada conjunto de etiquetas representa un elemento en la página.</p>
+
+<p class="clase2">  Ej.: En esta oración voy a aplicar el selector.  </p>
+
+
+
+
+
+<p><li><h2>    Varios elementos ( p, em, h1, h2 )  </h2></li></p>
+Este atributo sirve paraa aplicar una mismas modificaciones a distintos tipos de texto.<br>
+Ej.: Voy a sustituir los símbolos "<" y ">" por "/" y "/"para mostrar el ejemplo.<br>
+/style/<br>
+/p/,/h1/{color:blue}<br>
+//style/<br>
+/p/  Este texto saldría de color azul.   //p/<br>
+/h1/  Este texto saldría de color azul.  //h1/
+
+
+<p><li><h2>    Elementos contenidos en otros elementos (ol li)   </h2></li></p>
+Esto afecta a los elementos que se encuentren a la derecha en el estilo, pero estos elementos deben estra contenidos en los de la derecha.<br>
+Ej.: <ul>
+<li>Texto de ejemplo 1.</li>
+<li>Texto de ejemplo 2.</li>
+</ul>
+
+<p><li><h2>    Sobrevuleo (p:hover)   </h2></li></p>
+<p>El :hoverselector se utiliza para seleccionar elementos cuando pasa el ratón sobre ellos.</p>
+
+
+
+
+
+</ol>
+    </body>
+    </html>
+
+
+
+
+
+
