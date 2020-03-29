@@ -1,0 +1,102 @@
+# TICabeldiaz.github.io
+<!DOCTYPE html>
+<html>
+     <head>
+        
+          <meta charset="utf-8">
+<style>
+
+body {
+            background-color: rgba(0, 0, 0, 0.726);
+            padding: 5px
+        }
+
+h1 {
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: floralwhite;
+            font-size: xx-large;
+            padding: 5px;
+        }
+        h1:hover {
+            background-color: darkorange;
+            color: black;
+        }
+        p {
+            font-size: large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            color: floralwhite;
+            padding: 5px;}
+
+            img{
+display:block;
+margin:auto;
+}
+header {
+            color: rgba(214, 144, 15, 0.863);
+            font-size:35px;
+            font-weight: bold;
+        }
+
+ol {
+            border-style: dashed;
+            border-color: rgba(214, 144, 15, 0.863);
+            border-radius: 5px;
+            border-width: 5px;
+            padding: 5px;
+        }
+
+
+        li {
+            padding: 5px;
+            padding-left: 10px;
+        }
+a{
+            color:darkgreen;
+            font-size:larger;
+            text-decoration:darkred;
+        }
+
+
+</style>
+     </head>
+<body>
+
+    <ol>
+        <header>LAS MEJORES WEBS DEL MUNDO</header>
+        <li><a href="#primera" class="boton">Marca</a>
+        </li>
+        <li><a href="#segunda" class="boton">Zalando</a></li>
+        <li><a href="#tercera" class="boton">Youtube</a>
+        </li>
+        <li><a href="#cuarta" class="boton">Apple</a>
+        </li>
+        
+    </ol>
+
+
+
+    <div id="primera">
+    <h1>Marca</h1>
+    <p>Marca es un periódico deportivo que se centra sobre todo en el apartado del fútbol. Actualmente es el diario deportivo más leído tanto en su versión física como en su versión online. </p>
+    <a href="https://www.marca.com/"><img src="Imagenes/marca.jpg" height="150"></a>
+    </div>
+    <div id="segunda">   
+    <h1>Zalando</h1>
+<p>Zalando es un portal de compra de ropa y accesorios que últimamente está teniendo mucha repercusión debido a las grandes rebajas y ofertas que ofrecen. </p>
+<a href="https://www.zalando.com/"><img src="Imagenes/zalando.jpg" height="150"></a>
+    </div>
+<div id="tercera">
+<h1>Youtube</h1>
+<p>Youtube es un portal de vídeos en el que puedes tanto ver contenido subido por cualquier usuario como publicar tus propios vídeos.</p>
+<a href="https://www.youtube.com/"><img src="Imagenes/youtube.jpg" height="150"></a>
+
+</div>
+
+<div id="cuarta">
+<h1>Apple</h1>
+<p>Apple es una conocida marca de telefonía e informática caracterizada por su exclusividad y por su calidad. Hoy en día es la marca más vendida aunque sus precios son los más altos. </p>
+<a href="https://www.apple.com/"><img src="Imagenes/apple.jpg" height="150"></a>
+</div>
+</body>
+</html>
