@@ -5,32 +5,70 @@
           <meta charset="utf-8">
 
 <style>
-#titulo{background-color: rgb(102, 0, 102);
+
+     body{
+          background-image: url(Imagenes/fondo.jpeg);
+          background-repeat: no-repeat;
+          background-color: antiquewhite;
+          padding: 15px;
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+     
+}
+
+
+#titulo{
 color:rgb(255, 204, 0);
 font-family: 'Courier New', Courier, monospace;}
 
-#introduccion{background-color:rgb(204, 102, 0);
+#introducción{color:greenyellow;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-#ejercicios{background-color:rgb(0, 204, 0) ;
+#ejercicios{ 
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align:center}
 
-#mis {background-color:rgb(0, 153, 204) ;
+#mis {
 font-style: oblique;}
 
-#css{background-color:rgb(204, 102, 0) ;
+#css{
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align:center}
 
-#ccc{background-color:rgb(102, 255, 204) ;
+#ccc{
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
-#hosting{background-color:rgb(0, 204, 0);
+#hosting{color:greenyellow;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-#web{background-color: rgb(0, 153, 204);
+#web{
      font-style: oblique}
+
+     #etiquetas{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align:center}
+
+p{color:fuchsia;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-style: oblique;}
+
+a{
+            color:fuchsia;
+            font-size:larger;
+            text-decoration:darkred;
+        }
+
+        a:hover{background-color:red;
+            color: black}
+
+ #semantica{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center}
+
+
+
 
 </style>
 
@@ -38,11 +76,40 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
      </head>
      <body> 
-   <div id="introduccion"> 
-        <p> Soy Abel Díaz, vivo en Oviedo, y estudio en el I.E.S Doctor Fleming, concretamente en la clase 2ºC1,  mis aficiones son los deportes y los videojuegos, y, en un futuro, me gustaría estudiar la carrera de química.
+
+          <div class="hero-image">
+               <div class="hero-text">
+                 <h1 style="font-size:50px">Yo soy Abel Díaz</h1>
+                 <h3>y soy alumno de TICII</h3>
+                 
+               </div>
+            
+             
+<ol>
+          <nav>
+          <li><a href="#introducción" class="boton">Introducción</a>
+          </li>
+          <li><a href="#ejercicios" class="boton">Ejercicios de HTML</a></li>
+          <li><a href="#css" class="boton">Ejercicios de CSS</a>
+          </li>
+          <li><a href="#etiquetas" class="boton">Ejercicios de "más etiquetas"</a>
+          <li><a href="#semantica" class="boton">Ejercicios de Web semántica</a>
+          </li>
+     </nav>
+
+          </ol>
+
+          <main>
+
+               <section>
+   <div id="introducción"> 
+         Soy Abel Díaz, vivo en Oviedo, y estudio en el I.E.S Doctor Fleming, concretamente en la clase 2ºC1,  mis aficiones son los deportes y los videojuegos, y, en un futuro, me gustaría estudiar la carrera de química.
          Actualmente juego en C.D. Grujoan, un club de fútbol de la 1ª juvenil asturiana de mediocentro. <br>
         <img src="Imagenes/yo.jpg"  height="100">
-   </div>
+     </div>
+     </section>
+<section>
+   
 <div id="ejercicios">
         <h2  id="mis">Mis ejercicios de Introducción HTML</h2>
         <a href="html-ejerc1-intro.html">Ejercicio 1</a><br>
@@ -52,8 +119,17 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
         <a href="html-ejerc5-utf-8.html">Ejercicio 5</a><br>
         <a href="html-ejerc6-img.html">Ejercicio 6</a><br>
         <a href="html-ejerc7-viaje.html">Ejercicio 7</a><br>
+        <p>Estos ejercicos nos sirvieron como introducción a HTML, con ellos aprendimos lo básico.</p>
         
+        <li><a href="#introducción" class="botton">Volver al inicio</a></li>
+     
      </div>
+
+</section>
+
+<section>
+
+
 <div id="css">
      <h2 id="ccc">Mis ejercicios de Introducción CSS</h2>
      <a href="html-ejerc8-color.html">Ejercicio 8</a><br>
@@ -64,19 +140,79 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
      <a href="html-ejerc13-clases.html">Ejercicio 13</a><br>
      <a href="html-ejerc14-desafio-clases.html">Ejercicio 14</a><br>
      <a href="html-ejerc15-selectores.html">Ejercicio 15</a><br>
-     <a href="html-ejerc16.html">Ejercicio 16</a><br>    
+     <a href="html-ejerc16.html">Ejercicio 16</a><br>   
+     <p>En estos ejercicios aprendimos a modificar los documentos y a aplicar estilos.</p> 
+     <li><a href="#introducción" class="botton">Volver al inicio</a></li>
+</div>
+
+</section>
+
+<section>
+
+<div id="etiquetas">
+<h2 id="mis">Mis ejercicios de "más" etiquetas</h2>
+     <a href="html-ejerc18-vinculos.html">Ejercicio 18</a><br>
+     <a href="html-ejerc19-vinculos_internos.html">Ejercicio 19</a><br>
+     <a href="html-ejerc20-tabla.html">Ejercicio 20</a><br>
+     <a href="html-ejerc21-proyecto_recetas.html">Ejercicio 21</a><br>
+
+     
+
+     <p>En estos ejerecicios hemos ido un paso más allá y nos hemos centrado en los vínculos.</p>
+
+     <li><a href="#introducción" class="botton">Volver al inicio</a></li>
+     </div>
+
+
+</section>
+
+<section>
+<div id="semantica">
+<h2 id="ccc">Mis ejercicios de Web semántica</h2>
+<a href="html-ejerc24-videos.html">Ejercicio 24</a>
+
+<li><a href="#introducción" class="botton">Volver al inicio</a></li>
 </div>
 
 
+</section>
+
+
         <p>
+     <section>
             <div id="web" ><h2> Web hosting </h2></div>
+          </section>
+
+     <section>
              <div id="hosting">El alojamiento web (en inglés: web hosting) es el servicio que provee a los usuarios de Internet un sistema para poder almacenar información, imágenes, vídeo, o cualquier contenido accesible vía web. Es una analogía de "hospedaje o alojamiento en hoteles o habitaciones" donde uno ocupa un lugar específico, en este caso la analogía alojamiento web o alojamiento de páginas web, se refiere al lugar que ocupa una página web, sitio web, sistema, correo electrónico, archivos, en Internet o más específicamente en un servidor, que por lo general hospeda varias aplicaciones o páginas web.
           
              <p>El web hosting que estoy utilizando es el siguiente: https://rzuxvslxk0oeacfba9jc6g-on.drv.tw/WEB/
              </div>
+
+          </section>
+
+     </main>
+             <p>El enlace a mi página en github es el siguiente: https://ticabeldiaz.github.io/</p>
+
+
+
+             <footer>
+               <p>Posted by: Abel Díaz</p>
+               <p>Contact information: <a href="mailto:abeldg37@educastur.es">abeldg37@educastur.es</a>.</p>
+             </footer>
+             
              </body>
              
 </html>
+
+
+
+
+
+
+
+
+
 
 
 
