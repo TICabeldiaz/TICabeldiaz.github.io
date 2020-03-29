@@ -1,0 +1,99 @@
+# TICabeldiaz.github.io
+<!DOCTYPE html>
+<html>
+     <head>
+        
+          <meta charset="utf-8">
+<style>
+
+body{background-color:burlywood;
+    color:lightseagreen;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+h1:hover{background-color: lightseagreen;
+    color: mediumslateblue;
+    font-family: 'Times New Roman';}        
+
+#videos_propios{background-color:burlywood;
+    color:lightseagreen;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+#videos_youtube{background-color:burlywood;
+    color:lightseagreen;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        a{
+            color:lightseagreen;
+            font-size:larger;
+            text-decoration:mediumslateblue;
+        }
+        header {
+            color:mediumslateblue;
+            font-size:35px;
+            font-weight: bold;
+        }
+video{display:block;
+margin:auto;}
+
+p{text-align: center;}
+</style>
+
+</head>
+
+<body>
+<ol>
+    <header>Vídeos sobre fútbol</header>
+    <li><a href="#videos_propios" class="boton">Propios</a>
+    </li>
+    <li><a href="#videos_youtube" class="boton">Youtube</a></li>
+</ol>
+
+<div id="videos_propios">
+<h1>Estos son algunos vídeos relacionados con el fútbol grabados por mí.</h1>
+<ul>
+<li><p>En este vídeo podemos ver un gol del equipo de fútbol en el que juego.</p></li>
+<video width="500" height="240" controls> 
+    <source src="videos/gol.mp4" type="video/mp4"> 
+        <source src="videos/gol.ogg" type="video/ogg"> Tu navegador no soporta el modo vídeo.   </video>
+        <li><p>Aquí vemosun penalti en contra de mi equipo esta temporada.</p></li>
+<video width="500" height="240" controls> 
+    <source src="videos/penalti.mp4" type="video/mp4"> 
+        <source src="videos/penalti.ogg" type="video/ogg"> Tu navegador no soporta el modo vídeo. </video>
+        <li><p>En este vídeo vemos una jugada dudosa en la que la grda pide penalti.</p>      </li>
+  <video width="500" height="240" controls> 
+    <source src="videos/posible.mp4" type="video/mp4"> 
+        <source src="videos/posible.ogg" type="video/ogg"> Tu navegador no soporta el modo vídeo. </video>
+<li><p>En este vídeo vemos la celebración de un gol del Sporting de Gijón grabada desde la grada.</p></li>
+ <video width="500" height="240" controls> 
+    <source src="videos/sporting.mp4" type="video/mp4"> 
+        <source src="videos/sporting.ogg" type="video/ogg"> Tu navegador no soporta el modo vídeo. </video>
+        </ul>
+
+</div>
+
+
+<div id="videos_youtube">
+<h1>Estos son algunos vídeos relacionados con el fútbol que podemos encontrar en Youtube.</h1>
+<ul>
+<li><p>En este vídeo vamos a poder ver los que son considerados los 100 mejores goles de toda la historia del fútbol.</p></li>
+<iframe width="500" height="315" src="https://www.youtube.com/watch?v=VOZLN5mQwX0"> </iframe>
+
+<li><p>En este vídeo encontramos las que son considerads las mejores asistencias (pases a gol) de la historia.</p></li>
+<iframe width="500" height="315" src="https://www.youtube.com/watch?v=BvjsDUCeBoM"> </iframe>
+<li><p>En este vídeo se pueden ver algunas de las mejores jugadas defensivas de la historia.</p></li>
+<iframe width="500" height="315" src="https://www.youtube.com/watch?v=VuKez2LzPbI"> </iframe>
+<li><p>En este vídeo encontramos las mejores paradas hechas por los porteros de la historia.</p></li>
+<iframe width="500" height="315" src="https://www.youtube.com/watch?v=APqLwzd2_e0"> </iframe>
+
+</ul>
+</div>
+
+
+
+
+</body>
+
+</html>
