@@ -1,10 +1,184 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <div id="titulo"><h1> Mi trabajo en TICII Abel Díaz González </h1></div>
+          <div id="titulo"><h1> TICII en cuarentena. Abel Díaz González </h1></div>
           <meta charset="utf-8">
 
 <style>
+
+:root{
+                
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+                --color_oscuro:rgba(83, 77, 77,1);
+                --color_oscuro_transparente:rgba(83, 77, 77,0.80);
+                --blanco:#fff;
+                --rojo:rgb(245, 14, 14);
+                font-size: 1vw;
+            }
+            
+            
+            *{  padding:0px;
+                margin:0px;
+            }
+            a{
+                text-decoration: none;
+            }
+
+            ol, ul {
+		        list-style: none;
+	        }
+            
+             
+            .centrado_bloque{
+               margin-left: auto;
+               margin-right: auto; 
+            }
+            
+            header{
+                position:fixed;
+                top:0px;
+                left:0px;
+                background-color: var(--color_oscuro);
+                min-height: 3.5rem;
+                width: 100%;
+                z-index: 2000;
+            }
+
+                        
+                        header div{
+                            position: fixed;
+                            top: 0.25rem;
+                            left:2rem; 
+                            color:var(--rojo);
+                            font-size: 1.5rem;
+                                                       
+                        }
+                        header nav{
+                            position:fixed;
+                            top:1rem;
+                            right:5rem; 
+                            font-size: 1.25rem;
+                            font-weight: bold;
+                            
+                            
+                        }
+                            
+                        header nav ul{
+                            text-align: right;
+                        }                  
+                        header nav ul > li{
+                            display: inline-block;
+                            vertical-align: top;
+                            text-align: left;
+                            min-width: 10rem;
+
+                        }
+
+                        header nav ul li > ul{
+                            display: none;
+                        }
+
+                        header nav ul li:hover ul{
+                            display: block;
+                            text-align: center;
+                        }
+                        header nav ul li:hover li{
+                            display:block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                       
+                        .submenu:hover ul {
+                            display: block;                 
+                        }
+
+                        .submenu:hover ul > li{
+                            display: block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                        nav a{
+                            color: var(--blanco);
+                        }
+                        nav a:hover{
+                            background-color: var(--blanco);
+                            color:var(--color_oscuro);
+                        }
+
+           
+           
+            
+            main{
+                position: absolute;
+                top: 50rem;
+                left:10%;
+                min-width: 80%;
+                max-width: 80%;
+                z-index: 2000;
+            }
+
+            main article{
+                min-height: 300px;
+                min-width:50%;
+                background-color: var(--color_oscuro_transparente);
+                padding-top: 10px;
+                padding-bottom: 10px;
+             }
+
+            main article section{
+                min-height: 100px;
+                margin: 10px;
+                
+                font-size: 1.5rem;
+            }
+            
+            #actividades li{
+                display: inline-block;
+                background-color: var(--blanco);
+                color:var(--color_oscuro);
+                margin:2em;
+
+            }
+            #actividades li:hover{
+                background-color: var(--color_oscuroo);
+                color:var(--blanco);
+                margin:2em;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      body{
           background-image: url(Imagenes/fondo.jpeg);
@@ -67,7 +241,13 @@ a{
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align:center}
 
+#sobre{font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center}
 
+img{
+display:block;
+margin:auto;
+}
 
 
 </style>
@@ -76,123 +256,95 @@ text-align:center}
 
      </head>
      <body> 
+        <img src="Imagenes/coro.png"  height="650">
+        <header>
 
-          <div class="hero-image">
-               <div class="hero-text">
-                 <h1 style="font-size:50px">Yo soy Abel Díaz</h1>
-                 <h3>y soy alumno de TICII</h3>
-                 
-               </div>
+            <div class="contendor-fijo-izquierda">
+                <h1>TIC2 en cuarentena</h1>
+            </div>
+            <nav class="contendor-fijo-derecha">
+                <ul>
+                    <li class="submenu"><a href="">Mis trabajos TIc</a>
+                        <ul>
+                            <li><a href="#ejercicios-1">Introducción HTML</a></li>
+                            <li><a href="#ejercicios-2">Introducción CSS</a></li>
+                            <li><a href="#ejercicios-3">Introducción AMPLIACIÓN HTML Y CSS</a></li>
+                            <li><a href="#ejercicios-4">Introducción WEB SEMÁNTICA Y VÍDEOS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">Mi último index</a></li>
+                    <li><a href="#sobre">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <main>
+        <div class="sobre">
             
-             
-<ol>
-          <nav>
-          <li><a href="#introducción" class="boton">Introducción</a>
-          </li>
-          <li><a href="#ejercicios" class="boton">Ejercicios de HTML</a></li>
-          <li><a href="#css" class="boton">Ejercicios de CSS</a>
-          </li>
-          <li><a href="#etiquetas" class="boton">Ejercicios de "más etiquetas"</a>
-          <li><a href="#semantica" class="boton">Ejercicios de Web semántica</a>
-          </li>
-     </nav>
+                <h2>Sobre mí</h2>
+                <p>Soy Abel Díaz, vivo en Oviedo, y estudio en el I.E.S Doctor Fleming, concretamente en la clase 2ºC1,  mis aficiones son los deportes y los videojuegos, y, en un futuro, me gustaría estudiar la carrera de química.
+                    Actualmente juego en C.D. Grujoan, un club de fútbol de la 1ª juvenil asturiana de mediocentro.</p>
+            
+            
+                </div>
 
-          </ol>
-
-          <main>
-
-               <section>
-   <div id="introducción"> 
-         Soy Abel Díaz, vivo en Oviedo, y estudio en el I.E.S Doctor Fleming, concretamente en la clase 2ºC1,  mis aficiones son los deportes y los videojuegos, y, en un futuro, me gustaría estudiar la carrera de química.
-         Actualmente juego en C.D. Grujoan, un club de fútbol de la 1ª juvenil asturiana de mediocentro. <br>
-        <img src="Imagenes/yo.jpg"  height="100">
-     </div>
-     </section>
-<section>
-   
-<div id="ejercicios">
-        <h2  id="mis">Mis ejercicios de Introducción HTML</h2>
-        <a href="html-ejerc1-intro.html">Ejercicio 1</a><br>
-        <a href="html-ejerc2-poema.html">Ejercicio 2</a><br>
-        <a href="html-ejerc3-enfasis.html">Ejercicio 3</a><br>
-        <a href="html-ejerc4-listas.html">Ejercicio 4</a><br>
-        <a href="html-ejerc5-utf-8.html">Ejercicio 5</a><br>
-        <a href="html-ejerc6-img.html">Ejercicio 6</a><br>
-        <a href="html-ejerc7-viaje.html">Ejercicio 7</a><br>
-        <p>Estos ejercicos nos sirvieron como introducción a HTML, con ellos aprendimos lo básico.</p>
         
-        <li><a href="#introducción" class="botton">Volver al inicio</a></li>
-     
-     </div>
 
-</section>
+            
+            <article id="actividades">
+                <section id="ejercicios-1">
+                    <h2>Introducción HTML</h2> 
+                    <ul>
+                        <li><a href="html-ejerc1-intro.html">Ejercicio 1</a><br>
+                            <li><a href="html-ejerc2-poema.html">Ejercicio 2</a><br>
+                                <li><a href="html-ejerc3-enfasis.html">Ejercicio 3</a><br>
+                                    <li><a href="html-ejerc4-listas.html">Ejercicio 4</a><br>
+                                        <li><a href="html-ejerc5-utf-8.html">Ejercicio 5</a><br>
+                                            <li> <a href="html-ejerc6-img.html">Ejercicio 6</a><br>
+                                                <li> <a href="html-ejerc7-viaje.html">Ejercicio 7</a><br>
+                                                </ul>
+                     
+                   </section>
+                <section id="ejercicios-2">
+                    <h2>Introdución CSS</h2> 
+                    <ul>
+                        <li><a href="html-ejerc8-color.html">Ejercicio 8</a><br>
+                            <li><a href="html-ejerc9-criatura.html">Ejercicio 9</a><br>
+                                <li><a href="html-ejerc10-criatura2.html">Ejercicio 10</a><br>
+                                    <li><a href="html-ejerc11-formato.html">Ejercicio 11</a><br>
+                                        <li> <a href="html-ejerc12-Olafs.html">Ejercicio 12</a><br>
+                                            <li> <a href="html-ejerc13-clases.html">Ejercicio 13</a><br>
+                                                <li> <a href="html-ejerc14-desafio-clases.html">Ejercicio 14</a><br>
+                                                    <li> <a href="html-ejerc15-selectores.html">Ejercicio 15</a><br>
+                                                        <li> <a href="html-ejerc16.html">Ejercicio 16</a><br>   
+                                                            
 
-<section>
+                    </ul>              
+                </section>
+                <section id="ejercicios-3">
+                    <h2>Introducción AMPLIACIÓN HTML Y CSS</h2> 
+                    <ul>
+                       <li> <a href="html-ejerc18-vinculos.html">Ejercicio 18</a><br>
+                         <li><a href="html-ejerc19-vinculos_internos.html">Ejercicio 19</a><br>
+                            <li> <a href="html-ejerc20-tabla.html">Ejercicio 20</a><br>
+                                <li><a href="html-ejerc21-proyecto_recetas.html">Ejercicio 21</a><br>
+                   
+                    </ul>               
+                </section>
+                <section id="ejercicios-4"> 
+                    <h2>Introducción WEB SEMÁNTICA Y VÍDEOS</h2> 
+                    <ul>
+                        <li><a href="html-ejerc24-videos.html">Ejercicio 24</a>
+                    </ul>             
+                 </section>
+                
+            </article> 
+            
+            <article id="sobre_mi">
+                <section></section>
 
+            </article>
+        
 
-<div id="css">
-     <h2 id="ccc">Mis ejercicios de Introducción CSS</h2>
-     <a href="html-ejerc8-color.html">Ejercicio 8</a><br>
-     <a href="html-ejerc9-criatura.html">Ejercicio 9</a><br>
-     <a href="html-ejerc10-criatura2.html">Ejercicio 10</a><br>
-     <a href="html-ejerc11-formato.html">Ejercicio 11</a><br>
-     <a href="html-ejerc12-Olafs.html">Ejercicio 12</a><br>
-     <a href="html-ejerc13-clases.html">Ejercicio 13</a><br>
-     <a href="html-ejerc14-desafio-clases.html">Ejercicio 14</a><br>
-     <a href="html-ejerc15-selectores.html">Ejercicio 15</a><br>
-     <a href="html-ejerc16.html">Ejercicio 16</a><br>   
-     <p>En estos ejercicios aprendimos a modificar los documentos y a aplicar estilos.</p> 
-     <li><a href="#introducción" class="botton">Volver al inicio</a></li>
-</div>
-
-</section>
-
-<section>
-
-<div id="etiquetas">
-<h2 id="mis">Mis ejercicios de "más" etiquetas</h2>
-     <a href="html-ejerc18-vinculos.html">Ejercicio 18</a><br>
-     <a href="html-ejerc19-vinculos_internos.html">Ejercicio 19</a><br>
-     <a href="html-ejerc20-tabla.html">Ejercicio 20</a><br>
-     <a href="html-ejerc21-proyecto_recetas.html">Ejercicio 21</a><br>
-
-     
-
-     <p>En estos ejerecicios hemos ido un paso más allá y nos hemos centrado en los vínculos.</p>
-
-     <li><a href="#introducción" class="botton">Volver al inicio</a></li>
-     </div>
-
-
-</section>
-
-<section>
-<div id="semantica">
-<h2 id="ccc">Mis ejercicios de Web semántica</h2>
-<a href="html-ejerc24-videos.html">Ejercicio 24</a>
-
-<li><a href="#introducción" class="botton">Volver al inicio</a></li>
-</div>
-
-
-</section>
-
-
-        <p>
-     <section>
-            <div id="web" ><h2> Web hosting </h2></div>
-          </section>
-
-     <section>
-             <div id="hosting">El alojamiento web (en inglés: web hosting) es el servicio que provee a los usuarios de Internet un sistema para poder almacenar información, imágenes, vídeo, o cualquier contenido accesible vía web. Es una analogía de "hospedaje o alojamiento en hoteles o habitaciones" donde uno ocupa un lugar específico, en este caso la analogía alojamiento web o alojamiento de páginas web, se refiere al lugar que ocupa una página web, sitio web, sistema, correo electrónico, archivos, en Internet o más específicamente en un servidor, que por lo general hospeda varias aplicaciones o páginas web.
-          
-             <p>El web hosting que estoy utilizando es el siguiente: https://rzuxvslxk0oeacfba9jc6g-on.drv.tw/WEB/
-             </div>
-
-          </section>
-
-     </main>
-             <p>El enlace a mi página en github es el siguiente: https://ticabeldiaz.github.io/</p>
 
 
 
@@ -200,11 +352,10 @@ text-align:center}
                <p>Posted by: Abel Díaz</p>
                <p>Contact information: <a href="mailto:abeldg37@educastur.es">abeldg37@educastur.es</a>.</p>
              </footer>
-             
+            </main>
              </body>
              
 </html>
-
 
 
 
