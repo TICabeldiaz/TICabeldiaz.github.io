@@ -1,0 +1,359 @@
+# TICabeldiaz.github.io
+<!DOCTYPE html>
+<html>
+     <head>
+          <div id="titulo"><h1> TICII en cuarentena. Abel Díaz González </h1></div>
+          <meta charset="utf-8">
+
+<style>
+
+:root{
+                
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+                --color_oscuro:rgba(83, 77, 77,1);
+                --color_oscuro_transparente:rgba(83, 77, 77,0.80);
+                --blanco:#fff;
+                --rojo:rgb(245, 14, 14);
+                font-size: 1vw;
+            }
+            
+            
+            *{  padding:0px;
+                margin:0px;
+            }
+            a{
+                text-decoration: none;
+            }
+
+            ol, ul {
+		        list-style: none;
+	        }
+            
+             
+            .centrado_bloque{
+               margin-left: auto;
+               margin-right: auto; 
+            }
+            
+            header{
+                position:fixed;
+                top:0px;
+                left:0px;
+                background-color: var(--color_oscuro);
+                min-height: 3.5rem;
+                width: 100%;
+                z-index: 2000;
+            }
+
+                        
+                        header div{
+                            position: fixed;
+                            top: 0.25rem;
+                            left:2rem; 
+                            color:var(--rojo);
+                            font-size: 1.5rem;
+                                                       
+                        }
+                        header nav{
+                            position:fixed;
+                            top:1rem;
+                            right:5rem; 
+                            font-size: 1.25rem;
+                            font-weight: bold;
+                            
+                            
+                        }
+                            
+                        header nav ul{
+                            text-align: right;
+                        }                  
+                        header nav ul > li{
+                            display: inline-block;
+                            vertical-align: top;
+                            text-align: left;
+                            min-width: 10rem;
+
+                        }
+
+                        header nav ul li > ul{
+                            display: none;
+                        }
+
+                        header nav ul li:hover ul{
+                            display: block;
+                            text-align: center;
+                        }
+                        header nav ul li:hover li{
+                            display:block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                       
+                        .submenu:hover ul {
+                            display: block;                 
+                        }
+
+                        .submenu:hover ul > li{
+                            display: block;
+                            background-color: var(--color_oscuro);
+                        }
+                        
+                        nav a{
+                            color: var(--blanco);
+                        }
+                        nav a:hover{
+                            background-color: var(--blanco);
+                            color:var(--color_oscuro);
+                        }
+
+           
+           
+            
+            main{
+                position: absolute;
+                top: 50rem;
+                left:10%;
+                min-width: 80%;
+                max-width: 80%;
+                z-index: 2000;
+            }
+
+            main article{
+                min-height: 300px;
+                min-width:50%;
+                background-color: var(--color_oscuro_transparente);
+                padding-top: 10px;
+                padding-bottom: 10px;
+             }
+
+            main article section{
+                min-height: 100px;
+                margin: 10px;
+                
+                font-size: 1.5rem;
+            }
+            
+            #actividades li{
+                display: inline-block;
+                background-color: var(--blanco);
+                color:var(--color_oscuro);
+                margin:2em;
+
+            }
+            #actividades li:hover{
+                background-color: var(--color_oscuroo);
+                color:var(--blanco);
+                margin:2em;
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     body{
+          background-image: url(Imagenes/fondo.jpeg);
+          background-repeat: no-repeat;
+          background-color: antiquewhite;
+          padding: 15px;
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+     
+}
+
+
+#titulo{
+color:rgb(255, 204, 0);
+font-family: 'Courier New', Courier, monospace;}
+
+#introducción{color:greenyellow;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#ejercicios{ 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align:center}
+
+#mis {
+font-style: oblique;}
+
+#css{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center}
+
+#ccc{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+#hosting{color:greenyellow;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#web{
+     font-style: oblique}
+
+     #etiquetas{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align:center}
+
+p{color:fuchsia;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-style: oblique;}
+
+a{
+            color:fuchsia;
+            font-size:larger;
+            text-decoration:darkred;
+        }
+
+        a:hover{background-color:red;
+            color: black}
+
+ #semantica{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center}
+
+#sobre{font-family: Georgia, 'Times New Roman', Times, serif;
+text-align:center}
+
+img{
+display:block;
+margin:auto;
+}
+
+
+</style>
+
+
+
+     </head>
+     <body> 
+        <img src="Imagenes/coro.png"  height="650">
+        <header>
+
+            <div class="contendor-fijo-izquierda">
+                <h1>TIC2 en cuarentena</h1>
+            </div>
+            <nav class="contendor-fijo-derecha">
+                <ul>
+                    <li class="submenu"><a href="">Mis trabajos TIc</a>
+                        <ul>
+                            <li><a href="#ejercicios-1">Introducción HTML</a></li>
+                            <li><a href="#ejercicios-2">Introducción CSS</a></li>
+                            <li><a href="#ejercicios-3">Introducción AMPLIACIÓN HTML Y CSS</a></li>
+                            <li><a href="#ejercicios-4">Introducción WEB SEMÁNTICA Y VÍDEOS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">Mi último index</a></li>
+                    <li><a href="#sobre">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>  
+        <main>
+        <div class="sobre">
+            
+                <h2>Sobre mí</h2>
+                <p>Soy Abel Díaz, vivo en Oviedo, y estudio en el I.E.S Doctor Fleming, concretamente en la clase 2ºC1,  mis aficiones son los deportes y los videojuegos, y, en un futuro, me gustaría estudiar la carrera de química.
+                    Actualmente juego en C.D. Grujoan, un club de fútbol de la 1ª juvenil asturiana de mediocentro.</p>
+            
+            
+                </div>
+
+        
+
+            
+            <article id="actividades">
+                <section id="ejercicios-1">
+                    <h2>Introducción HTML</h2> 
+                    <ul>
+                        <li><a href="html-ejerc1-intro.html">Ejercicio 1</a><br>
+                            <li><a href="html-ejerc2-poema.html">Ejercicio 2</a><br>
+                                <li><a href="html-ejerc3-enfasis.html">Ejercicio 3</a><br>
+                                    <li><a href="html-ejerc4-listas.html">Ejercicio 4</a><br>
+                                        <li><a href="html-ejerc5-utf-8.html">Ejercicio 5</a><br>
+                                            <li> <a href="html-ejerc6-img.html">Ejercicio 6</a><br>
+                                                <li> <a href="html-ejerc7-viaje.html">Ejercicio 7</a><br>
+                                                </ul>
+                     
+                   </section>
+                <section id="ejercicios-2">
+                    <h2>Introdución CSS</h2> 
+                    <ul>
+                        <li><a href="html-ejerc8-color.html">Ejercicio 8</a><br>
+                            <li><a href="html-ejerc9-criatura.html">Ejercicio 9</a><br>
+                                <li><a href="html-ejerc10-criatura2.html">Ejercicio 10</a><br>
+                                    <li><a href="html-ejerc11-formato.html">Ejercicio 11</a><br>
+                                        <li> <a href="html-ejerc12-Olafs.html">Ejercicio 12</a><br>
+                                            <li> <a href="html-ejerc13-clases.html">Ejercicio 13</a><br>
+                                                <li> <a href="html-ejerc14-desafio-clases.html">Ejercicio 14</a><br>
+                                                    <li> <a href="html-ejerc15-selectores.html">Ejercicio 15</a><br>
+                                                        <li> <a href="html-ejerc16.html">Ejercicio 16</a><br>   
+                                                            
+
+                    </ul>              
+                </section>
+                <section id="ejercicios-3">
+                    <h2>Introducción AMPLIACIÓN HTML Y CSS</h2> 
+                    <ul>
+                       <li> <a href="html-ejerc18-vinculos.html">Ejercicio 18</a><br>
+                         <li><a href="html-ejerc19-vinculos_internos.html">Ejercicio 19</a><br>
+                            <li> <a href="html-ejerc20-tabla.html">Ejercicio 20</a><br>
+                                <li><a href="html-ejerc21-proyecto_recetas.html">Ejercicio 21</a><br>
+                   
+                    </ul>               
+                </section>
+                <section id="ejercicios-4"> 
+                    <h2>Introducción WEB SEMÁNTICA Y VÍDEOS</h2> 
+                    <ul>
+                        <li><a href="html-ejerc24-videos.html">Ejercicio 24</a>
+                    </ul>             
+                 </section>
+                
+            </article> 
+            
+            <article id="sobre_mi">
+                <section></section>
+
+            </article>
+        
+
+
+
+
+             <footer>
+               <p>Posted by: Abel Díaz</p>
+               <p>Contact information: <a href="mailto:abeldg37@educastur.es">abeldg37@educastur.es</a>.</p>
+             </footer>
+            </main>
+             </body>
+             
+</html>
